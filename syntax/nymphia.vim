@@ -60,7 +60,7 @@ syntax keyword nymphiaHostMethod user_known_hosts_file verify_host_key_dns conta
 syntax keyword nymphiaHostMethod visual_host_key x_auth_location contained containedin=rubyCurlyBlock,rubyDoBlock
 
 
-highlight link nymphiaMethod Identifier
-highlight link nymphiaHostMethod Identifier
+highlight default link nymphiaMethod Identifier
+highlight default link nymphiaHostMethod Identifier
 
 let b:current_syntax = 'nymphia'
