@@ -11,6 +11,7 @@ syntax keyword nymphiaMethod host proxy gateway group
 syntax keyword nymphiaMethod group default_params use_gateway use_identify_file
 syntax keyword nymphiaMethod identity_file
 syntax keyword nymphiaMethod local_forward
+syntax keyword nymphiaMethod include_file
 
 syntax keyword nymphiaHostMethod match add_key_to_agent address_family contained containedin=rubyCurlyBlock,rubyDoBlock
 syntax keyword nymphiaHostMethod batch_mode bind_address canonical_domain contained containedin=rubyCurlyBlock,rubyDoBlock
