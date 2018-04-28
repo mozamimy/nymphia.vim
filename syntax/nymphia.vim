@@ -13,7 +13,7 @@ syntax keyword nymphiaMethod identity_file
 syntax keyword nymphiaMethod local_forward
 syntax keyword nymphiaMethod include_file
 
-syntax keyword nymphiaHostMethod match add_key_to_agent address_family contained containedin=rubyCurlyBlock,rubyDoBlock
+syntax keyword nymphiaHostMethod match add_keys_to_agent address_family contained containedin=rubyCurlyBlock,rubyDoBlock
 syntax keyword nymphiaHostMethod batch_mode bind_address canonical_domain contained containedin=rubyCurlyBlock,rubyDoBlock
 syntax keyword nymphiaHostMethod canonicalize_fallback_local contained containedin=rubyCurlyBlock,rubyDoBlock
 syntax keyword nymphiaHostMethod canonicalize_hostname contained containedin=rubyCurlyBlock,rubyDoBlock
